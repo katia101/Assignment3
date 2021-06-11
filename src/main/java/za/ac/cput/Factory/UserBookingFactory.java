@@ -1,2 +1,4 @@
-package za.ac.cput.Factory;public class UserBookingFactory {
+package za.ac.cput.Factory;
+
+public class UserBookingFactory {
 }
