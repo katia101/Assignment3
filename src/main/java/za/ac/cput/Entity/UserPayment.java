@@ -1,3 +1,9 @@
+/**
+ * Mziyanda Mwanda
+ * 215133765
+ * Assignment 3
+ * 11 June 2021
+ * */
 package za.ac.cput.Entity;
 
 public class UserPayment {
