@@ -10,12 +10,12 @@ import za.ac.cput.Entity.UserPayment;
 import za.ac.cput.Util.GenUserId;
 
 public class UserPaymentFactory {
-    public static UserPayment createUserPayment() {
+    public static UserPayment createUserPayment(String paymentId) {
         String userId = GenUserId.genUserId();
-        String paymentId = GenUserId.genUserId();
+        //tring paymentId = GenUserId.genUserId();
         UserPayment user = new UserPayment.Builder()
                 .setUserId(userId)
-                .setPaymentId(paymentId)
+                .setPaymentId()
                 .build();
         return user;
     }

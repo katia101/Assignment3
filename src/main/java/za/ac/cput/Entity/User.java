@@ -15,6 +15,18 @@ public class User {
         this.lastName = builder.lastName;
     }
 
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -44,6 +56,8 @@ public class User {
 
             return this;
         }
+
+
 
         public User build(){
 

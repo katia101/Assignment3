@@ -9,9 +9,13 @@ package za.ac.cput.Entity;
 public class UserPayment {
     public String userId, paymentId;
 
-    private UserPayment(Builder builder){
+    public UserPayment(Builder builder){
         this.userId = builder.userId;
         this.paymentId = builder.paymentId;
+    }
+
+    public String getPaymentId() {
+        return paymentId;
     }
 
     @Override
@@ -31,7 +35,7 @@ public class UserPayment {
             return this;
         }
 
-        public Builder setPaymentId(String paymentId){
+        public Builder setPaymentId(){
             this.paymentId = paymentId;
 
             return this;

@@ -10,12 +10,10 @@ import org.junit.jupiter.api.Test;
 
 import za.ac.cput.Entity.UserPayment;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class UserPaymentFactoryTest {
     @Test
     public void createUser() {
-        UserPayment uP = UserPaymentFactory.createUserPayment();
+        UserPayment uP = UserPaymentFactory.createUserPayment(userPayment.getPaymentId());
         System.out.println(uP);
 
     }
